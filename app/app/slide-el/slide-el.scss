@@ -1,0 +1,23 @@
+slide-el {
+  width: 100vw;
+  min-height: 100vh;
+  border-top: 10px solid #212121;
+  overflow: hidden;
+  .separator {
+    height: 0.5em;
+    width: 10em;
+    padding: 0;
+    margin: 0 0 0 8px;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .img-wrapper {
+    max-height: 400px;
+    min-height: 300px;
+  }
+  .inner-slide {
+    max-width: 1024px;
+    min-height: 100vh;
+  }
+}

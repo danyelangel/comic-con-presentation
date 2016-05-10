@@ -1,0 +1,44 @@
+app-el {
+  display: block;
+}
+.splash {
+  min-height: 100vh;
+  background: #0073d6;
+  h1 {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    @media (max-width: 700px) {
+      font-size: 2em;
+    }
+  }
+  .img-wrapper {
+    min-height: 200px;
+    @media (max-width: 700px) {
+      min-height: 150px;
+    }
+    max-width: 600px;
+    width: 90vw;
+  }
+}
+
+.footer {
+  padding: 6em;
+  background: #212121;
+  color: #fff;
+  font-size: 0.5em;
+}
+
+h1 {
+  font-family: 'Big John', 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.img-wrapper {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 8px;
+}

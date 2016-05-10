@@ -1,0 +1,31 @@
+<div ng-style="$ctrl.wcData.styles" 
+     layout-fill layout="row" layout-align="center center">
+  
+  <div sn-skrollr
+       data-100p-bottom="transform:translateY(-120vh); opacity:0"
+       data-center="transform:translateY(0vh); opacity:1"
+       data--100p-top="transform:translateY(100vh); opacity:1"
+       layout-fill layout="row" layout-xs="column" 
+       class="inner-slide">
+    
+    <div flex layout="column" flex-order-xs="2" layout-align="center flex-start" layout-padding>
+      
+      <h1 >{{$ctrl.wcData.title}}</h1>
+      <div class="separator" 
+           ng-style="{background: $ctrl.wcData.styles.color}"></div>
+      <p>{{$ctrl.wcData.description}}</p>
+      
+    </div>
+    
+    <div flex 
+         layout="column" 
+         layout-align="center center" 
+         layout-padding>
+      
+      <div class="img-wrapper" 
+           layout-fill layout-margin layout-padding flex 
+           ng-style="{backgroundImage: 'url('+$ctrl.wcData.imgSrc+')'}"></div>
+      
+    </div>
+  </div>
+</div>
